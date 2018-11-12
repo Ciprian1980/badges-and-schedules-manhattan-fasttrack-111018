@@ -9,6 +9,6 @@ end
     rooms = [1, 2, 3, 4, 5, 6, 7]
     rooms .each do |rooms|
       puts rooms + name
-      
+      arr.delete(#{name} && #{rooms})
         puts "Hello, #{name}! You'll be assigned to room #{rooms}!" 
   end
